@@ -198,12 +198,12 @@ mod test {
         // assert_eq!(gen.input[0].previous_output.txid, Default::default());
         // assert_eq!(gen.input[0].previous_output.vout, 0xFFFFFFFF);
         // assert_eq!(serialize(&gen.input[0].script_sig),
-                   Vec::from_hex("4804ffff001d0104404e592054696d65732030352f4f63742f32303131205374657665204a6f62732c204170706c65e280997320566973696f6e6172792c2044696573206174203536").unwrap());
+        //            Vec::from_hex("4804ffff001d0104404e592054696d65732030352f4f63742f32303131205374657665204a6f62732c204170706c65e280997320566973696f6e6172792c2044696573206174203536").unwrap());
 
         // assert_eq!(gen.input[0].sequence, MAX_SEQUENCE);
         // assert_eq!(gen.output.len(), 1);
         // assert_eq!(serialize(&gen.output[0].script_pubkey),
-                   Vec::from_hex("4341040184710fa689ad5023690c80f3a49c8f13f8d45b8c857fbcbc8bc4a8e4d3eb4b10f4d4604fa08dce601aaf0f470216fe1b51850b4acf21b179c45070ac7b03a9ac").unwrap());
+        //            Vec::from_hex("4341040184710fa689ad5023690c80f3a49c8f13f8d45b8c857fbcbc8bc4a8e4d3eb4b10f4d4604fa08dce601aaf0f470216fe1b51850b4acf21b179c45070ac7b03a9ac").unwrap());
         // assert_eq!(gen.output[0].value, 100 * COIN_VALUE);
         // assert_eq!(gen.lock_time, 0);
 
