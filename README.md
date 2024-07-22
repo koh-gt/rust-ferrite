@@ -1,3 +1,6 @@
+# Rust Ferrite
+Library derived from Rust Bitcoin as a dependency for [electrs-fec](), a backend for esplora and mempool.ferritecoin.org
+
 <div align="center">
   <h1>Rust Bitcoin</h1>
 
